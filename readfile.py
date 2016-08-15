@@ -62,12 +62,10 @@ def getdata():
 
     X_test = np.append(X1_test, X2_test)
     X_test = X_test.reshape((len_test1 + len_test2, 400)) 
-    X_test = np.matrix(X_test, dtype = float)
 
     Y = np.append(Y1, Y2)
 
     Y_test = np.append(Y1_test, Y2_test)
-    Y_test = np.matrix(Y_test.reshape((len_test1 + len_test2, 1)), dtype =float)
 
     return X, Y, X_test, Y_test
 
