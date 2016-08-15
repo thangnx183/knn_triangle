@@ -1,6 +1,5 @@
 import readfile as rf
 import numpy as np
-import math
 from sklearn import neighbors
 
 X, Y, X_test, Y_test = rf.getdata()
