@@ -15,6 +15,4 @@ Xtest, lisdir = rf.get_final_test()
 
 h = clf.predict(Xtest)
 
-print h[2]
-
 rf.result(h, lisdir)
